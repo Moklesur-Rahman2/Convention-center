@@ -1,0 +1,61 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+/*custom bg color */
+
+.bg-indigo{
+    background: #7158e2;
+}
+.fw-medium{
+    font-weight: 500;
+}
+.text-indigo{
+    color: #7158e2;
+}
+/* font awesome icon custom style */
+.fa-check{
+    font-size: 11px;
+    background-color: hsla(247, 51%, 51%, 0.164);
+}
+.hot-plan .fa-check{
+    background-color: #ffffff1f;
+}
+
+/* Hot plan border style */
+.hot-plan{
+    border-radius: 26px;
+    background-image: url(images/hot-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top right;
+}
+.hot{
+    top: -10px;
+    right: 30px;
+}
+
+/* review custom style */
+.review{
+    border-radius: 5px;
+}
+
+/* custom slide height for mobile device */
+@media only screen and (min-width: 993px) {
+    .slide h1{
+        max-width: 500px;
+        font-size: 48px;
+    }
+    .slide p{
+        max-width: 500px;
+    }
+  }
+
+@media only screen and (max-width: 1025px) {
+    .slide{
+        height: 586px;
+    }
+    .slide img{
+        object-fit: cover;
+        height: 100%;
+    }
+  }
